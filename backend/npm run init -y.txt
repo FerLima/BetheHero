@@ -1,0 +1,7 @@
+npm run init -y
+npm install express
+criar index.js
+importar express
+criar instancia do express
+
+instancia.listen(3333)

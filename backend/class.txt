@@ -1,0 +1,44 @@
+index.js
+
+/*
+    GET: Buscar informação
+    POST: Criar uma informação no back-end
+    PUT: Alterar informação
+    DELETE: Del
+*/
+
+/*
+    Parameters type:
+    Query: Parametros nomeados enviados na rota
+    Route: parametros dinamicos para identificar recursos example node: /users/:id using: /users/1
+    Body: Que vem no corpo da req
+
+    const params = request.query;
+    const route = request.params;
+    const body = request.body;
+*/ 
+
+
+/*
+    Driver: SELECT * FROM users
+    Query Builder: table('users').select('*').where()
+    knex.js será o query builder que utilizaremos
+*/ 
+
+
+Como abstrair entidades
+Tudo que deverá ser salvo no banco de dados analisando o layout da aplicação
+ONG 
+Caso
+
+Funcionalidades
+Tudo que as entidades farão dentro da aplicação
+Login de ONG
+Cadastro de ONG 
+Logout de ONG
+Cadastrar novos casos
+Deletar casos
+Listar Casos especificos de uma ONG
+Mobile
+Listar todos os casos
+Entrar em contato com ONG
