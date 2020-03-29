@@ -8,7 +8,7 @@ module.exports = {
         .where("ong_id", ong_id)
         .select('*') 
 
-        return response.send({incidents});
+        return response.send(incidents);
     }
 
 }
